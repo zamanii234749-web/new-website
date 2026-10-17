@@ -1,0 +1,7 @@
+@media (any-hover: hover) {
+}
+@media (pointer: fine) {
+  @supports (-moz-appearance:none) {
+  .list-IZcGqlx9 { scrollbar-color: var(--tv-color-scrollbar-thumb-background,var(--color-scroll-bg)) #0000; scrollbar-width: thin; }
+}
+}

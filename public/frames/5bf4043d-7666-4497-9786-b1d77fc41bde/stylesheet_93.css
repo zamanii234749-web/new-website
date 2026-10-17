@@ -1,0 +1,9 @@
+@supports (-moz-appearance:none) {
+  .bodyNoScroll-fOIRKAtH { scrollbar-width: none; }
+}
+@supports (-moz-appearance:none) {
+  .scrollTrap-Ln0AIW4F { scrollbar-width: none; }
+}
+@supports (height:100dvh) {
+  .bottom-af0LCgy5, .top-af0LCgy5 { max-height: calc(-100px + 100dvh); }
+}

@@ -1,0 +1,10 @@
+[data-theme="dark"] { --_0-84ot: var(--color-cold-gray-800); }
+.pair-xwGsSXR0 { display: inline-block; position: relative; }
+.pair-xwGsSXR0.xsmall-xwGsSXR0 { height: 24px; width: 24px; }
+.logo-xwGsSXR0 { border-radius: 50%; }
+.logo-xwGsSXR0:not(img) { background-color: var(--_0-84ot); }
+.logo-xwGsSXR0:first-child, .logo-xwGsSXR0:last-child { position: absolute; right: 0px; top: 0px; }
+.logo-xwGsSXR0.xsmall-xwGsSXR0 { height: 16px; width: 16px; }
+.logo-xwGsSXR0.xsmall-xwGsSXR0:last-child { transform: translate(-8px, 8px); }
+.logo-xwGsSXR0.xsmall-xwGsSXR0:first-child { clip-path: path("M 16 8 A 8 8 0 0 0 0.3 6 a 10 10 0 0 1 9.7 9.7 A 8 8 0 0 0 16 8 Z"); }
+.skeleton-xwGsSXR0 { background-color: currentcolor; }

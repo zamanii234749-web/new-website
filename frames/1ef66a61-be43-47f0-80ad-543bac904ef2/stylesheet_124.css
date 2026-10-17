@@ -1,0 +1,94 @@
+:root, [data-query-type="container"] > * { --v-rhythm-header-1-space-phone: 56px; --v-rhythm-header-1-space-tablet: 80px; --v-rhythm-header-1-space-laptop: 100px; --v-rhythm-header-1-space-desktop: 120px; --v-rhythm-header-2-space-phone: 16px; --v-rhythm-header-2-space-tablet: 24px; --v-rhythm-header-2-space-laptop: 32px; --v-rhythm-header-2-space-desktop: 40px; --v-rhythm-header-3-space-phone: 16px; --v-rhythm-header-3-space-tablet: 16px; --v-rhythm-header-3-space-laptop: 24px; --v-rhythm-header-3-space-desktop: 24px; --v-rhythm-footer-1-space-phone: 56px; --v-rhythm-footer-1-space-tablet: 80px; --v-rhythm-footer-1-space-laptop: 100px; --v-rhythm-footer-1-space-desktop: 120px; --v-rhythm-footer-2-space-phone: 16px; --v-rhythm-footer-2-space-tablet: 24px; --v-rhythm-footer-2-space-laptop: 32px; --v-rhythm-footer-2-space-desktop: 40px; --v-rhythm-footer-3-space-phone: 16px; --v-rhythm-footer-3-space-tablet: 16px; --v-rhythm-footer-3-space-laptop: 24px; --v-rhythm-footer-3-space-desktop: 24px; --v-rhythm-spacing-1-phone: 80px; --v-rhythm-spacing-1-tablet: 120px; --v-rhythm-spacing-1-laptop: 160px; --v-rhythm-spacing-1-desktop: 200px; --v-rhythm-spacing-2-phone: 64px; --v-rhythm-spacing-2-tablet: 88px; --v-rhythm-spacing-2-laptop: 120px; --v-rhythm-spacing-2-desktop: 160px; --v-rhythm-spacing-3-phone: 48px; --v-rhythm-spacing-3-tablet: 64px; --v-rhythm-spacing-3-laptop: 88px; --v-rhythm-spacing-3-desktop: 120px; --v-rhythm-spacing-4-phone: 48px; --v-rhythm-spacing-4-tablet: 48px; --v-rhythm-spacing-4-laptop: 64px; --v-rhythm-spacing-4-desktop: 80px; --v-rhythm-spacing-5-phone: 32px; --v-rhythm-spacing-5-tablet: 32px; --v-rhythm-spacing-5-laptop: 40px; --v-rhythm-spacing-5-desktop: 48px; --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-phone); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-phone); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-phone); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-phone); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-phone); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-phone); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-phone); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-phone); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-phone); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-phone); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-phone); }
+@media (min-width: 768px) {
+  :root { --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-tablet); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-tablet); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-tablet); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-tablet); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-tablet); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-tablet); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-tablet); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-tablet); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-tablet); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-tablet); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-tablet); }
+}
+@supports not (container-type:inline-size) {
+  @media (min-width: 702px) {
+  [data-query-type="container"] > * { --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-tablet); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-tablet); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-tablet); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-tablet); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-tablet); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-tablet); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-tablet); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-tablet); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-tablet); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-tablet); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-tablet); }
+}
+}
+@container content-container (min-width: 702px) {
+  [data-query-type="container"] > * { --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-tablet); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-tablet); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-tablet); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-tablet); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-tablet); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-tablet); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-tablet); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-tablet); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-tablet); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-tablet); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-tablet); }
+}
+@media (min-width: 1280px) {
+  :root { --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-laptop); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-laptop); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-laptop); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-laptop); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-laptop); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-laptop); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-laptop); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-laptop); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-laptop); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-laptop); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-laptop); }
+}
+@supports not (container-type:inline-size) {
+  @media (min-width: 1214px) {
+  [data-query-type="container"] > * { --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-laptop); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-laptop); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-laptop); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-laptop); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-laptop); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-laptop); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-laptop); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-laptop); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-laptop); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-laptop); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-laptop); }
+}
+}
+@container content-container (min-width: 1214px) {
+  [data-query-type="container"] > * { --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-laptop); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-laptop); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-laptop); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-laptop); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-laptop); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-laptop); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-laptop); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-laptop); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-laptop); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-laptop); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-laptop); }
+}
+@media (min-width: 1440px) {
+  :root { --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-desktop); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-desktop); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-desktop); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-desktop); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-desktop); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-desktop); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-desktop); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-desktop); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-desktop); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-desktop); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-desktop); }
+}
+@supports not (container-type:inline-size) {
+  @media (min-width: 1374px) {
+  [data-query-type="container"] > * { --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-desktop); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-desktop); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-desktop); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-desktop); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-desktop); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-desktop); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-desktop); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-desktop); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-desktop); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-desktop); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-desktop); }
+}
+}
+@container content-container (min-width: 1374px) {
+  [data-query-type="container"] > * { --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-desktop); --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-desktop); --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-desktop); --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-desktop); --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-desktop); --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-desktop); --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-desktop); --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-desktop); --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-desktop); --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-desktop); --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-desktop); }
+}
+@media (max-width: 1019px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 479px) {
+}
+@media (max-width: 1019px) {
+}
+@media (max-width: 479px) {
+}
+@media (max-width: 1019px) {
+}
+@media (any-hover: hover) {
+}
+html.theme-dark { color-scheme: dark; }
+body { -webkit-tap-highlight-color: transparent; }
+::selection { background: var(--color-selection-bg); }
+@keyframes screenfade-WDCCRITC { 
+  0% { opacity: 0; }
+}
+.paneSeparator-pCRReYxp { margin: 0px; padding: 0px; position: relative; }
+.paneSeparator-pCRReYxp .handle-pCRReYxp { height: 7px; inset-inline-start: 0px; position: absolute; top: -3px; width: 100%; z-index: 50; }
+.price-axis-currency-label-wrapper-lOV7ozYu { box-sizing: border-box; padding: 4px; pointer-events: none; position: absolute; user-select: none; width: 100%; z-index: 3; }
+.price-axis-currency-label-wrapper-lOV7ozYu.hidden-lOV7ozYu { visibility: hidden; }
+.price-axis-currency-label-lOV7ozYu { border-radius: 4px; box-sizing: border-box; cursor: default; width: 100%; }
+.price-axis-currency-label-lOV7ozYu .row-lOV7ozYu { align-items: center; column-gap: 2px; display: flex; height: 24px; justify-content: space-between; line-height: 1em; padding: 0px 3px; }
+.price-axis-currency-label-lOV7ozYu .row-lOV7ozYu:nth-child(1 of :not(.js-hidden)) { border-start-end-radius: 3px; border-start-start-radius: 3px; }
+.price-axis-currency-label-lOV7ozYu .row-lOV7ozYu:nth-last-child(-n+1 of :not(.js-hidden)) { border-end-end-radius: 3px; border-end-start-radius: 3px; }
+@media (any-hover: hover) {
+  .price-axis-currency-label-lOV7ozYu .row-lOV7ozYu:hover:not(.readonly) { background: var(--color-cold-gray-100); }
+}
+.price-axis-currency-label-lOV7ozYu div { pointer-events: auto; }
+.price-axis-currency-label-text-lOV7ozYu { white-space: nowrap; }
+.price-axis-currency-label-arrow-down-lOV7ozYu { align-self: center; display: flex; }
+.chart-widget__top--themed-dark .price-axis-currency-label-wrapper-lOV7ozYu .price-axis-currency-label-lOV7ozYu { background: var(--color-cold-gray-900); border: 1px solid var(--color-cold-gray-700); }
+.chart-widget__top--themed-dark .price-axis-currency-label-wrapper-lOV7ozYu .price-axis-currency-label-lOV7ozYu .row-lOV7ozYu { color: var(--color-cold-gray-200); }
+@media (any-hover: hover) {
+  .chart-widget__top--themed-dark .price-axis-currency-label-wrapper-lOV7ozYu .price-axis-currency-label-lOV7ozYu .row-lOV7ozYu:hover:not(.readonly) { background: var(--color-cold-gray-800); }
+}
+.price-axis { cursor: default; overflow: hidden; position: absolute; }
+.price-axis__modeButtons { bottom: 0px; margin-block: 0px; margin-inline: 1px; position: absolute; width: calc(100% - 2px); z-index: 3; }
+.price-axis__modeButtons_hidden { visibility: hidden; }
+.pane { cursor: crosshair; overflow: hidden; }
+.time-axis { cursor: default; }
+[data-theme="dark"] { --_0-gH_F: var(--color-tv-blue-800); }
+.chart-widget { border-style: none; box-sizing: border-box; inset-inline-start: 0px; margin: 0px; overflow: hidden; padding: 0px; position: absolute; top: 0px; }
+.chart-markup-table { border: none; border-collapse: collapse; border-spacing: 0px; box-sizing: border-box; line-height: 0px; }
+.chart-markup-table:dir(rtl) { direction: ltr; }
+.chart-gui-wrapper { align-items: flex-start; box-sizing: border-box; column-gap: 4px; direction: ltr; display: flex; max-height: 100%; max-width: 100%; overflow: hidden; padding-block: 4px 0px; padding-inline: 4px; position: relative; }
+.chart-gui-wrapper__legend { flex: 1 1 auto; max-width: 100%; }
+.chart-gui-wrapper__paneControls { justify-content: flex-end; margin-inline-start: auto; }
+.neutral-rounded-border { --chart-widget-border-color: var(--color-container-fill-secondary-neutral-extra-bold); --chart-widget-border-radius: 4px; }
+.chart-page { background-color: var(--tv-color-platform-background,var(--color-chart-page-bg)); }
+.chart-page .chart-container { contain: strict; }
+.chart-page .chart-container-border { background-color: var(--color-pane-bg); border: none; height: 100%; overflow: hidden; position: relative; width: 100%; z-index: 0; }
+.layout-with-border-radius .chart-container.top-full-width-chart .chart-container-border { border-radius: 4px 4px 0px 0px; }
+.layout-with-border-radius .no-border-top-right-radius .chart-container .chart-container-border { border-top-right-radius: 0px; }
+.chart-controls-bar { background-color: var(--tv-color-pane-background,var(--color-pane-bg)); border-top-width: 1px; border-top-style: solid; border-color: var(--tv-color-platform-background,var(--color-chart-page-bg)); border-radius: 0px 0px 4px 4px; box-sizing: border-box; contain: strict; height: 39px; overflow: hidden; position: absolute; }
+.no-border-bottom-left-radius .chart-controls-bar { border-bottom-left-radius: 0px; }
+.no-border-bottom-right-radius .chart-controls-bar { border-bottom-right-radius: 0px; }

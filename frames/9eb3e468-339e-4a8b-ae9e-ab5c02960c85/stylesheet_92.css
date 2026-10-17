@@ -1,0 +1,6 @@
+@supports (-moz-appearance:none) {
+  .scrollContainer-zG2CqDe2 { scrollbar-color: var(--tv-color-scrollbar-thumb-background,var(--color-scroll-bg)) #0000; scrollbar-width: thin; }
+}
+@supports (-moz-appearance:none) {
+  .mainScrollWrapper-go0ZeNQF { scrollbar-color: var(--tv-color-scrollbar-thumb-background,var(--color-scroll-bg)) #0000; scrollbar-width: thin; }
+}

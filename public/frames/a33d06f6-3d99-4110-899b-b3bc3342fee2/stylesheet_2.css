@@ -1,0 +1,20 @@
+[data-theme="dark"] { --_0-IMv0: var(--color-cold-gray-450); }
+.tv-market-status__dot { border-radius: 50%; display: inline-block; vertical-align: middle; }
+.tv-market-status--market { color: var(--color-minty-green-300); }
+.tv-market-status--out-of-session { color: var(--color-cold-gray-400); }
+.tv-market-status--out-of-session .tv-market-status__dot { background-color: var(--color-cold-gray-400); }
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+.tv-market-status--for-ticker-tape { align-items: center; display: flex; transform: translateX(4px); }
+.tv-market-status--for-sticky-symbol-header:dir(rtl), .tv-market-status--for-ticker-tape:dir(rtl) { transform: translateX(-4px); }
+.tv-market-status__dot--for-ticker-tape { height: 4px; width: 4px; }

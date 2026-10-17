@@ -1,0 +1,10 @@
+.gt_float_switcher { font-family: Arial; font-size: 20px; border-radius: 2px; color: rgb(85, 85, 85); display: inline-block; line-height: 20px; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px; background: rgb(255, 255, 255); overflow: hidden; }
+.gt_float_switcher img { vertical-align: middle; display: inline-block; width: 33px; height: auto; margin: 0px 5px 0px 0px; border-radius: 3px; }
+.gt_float_switcher .gt_options { position: relative; z-index: 777; transform: translateY(-30px); opacity: 0; cursor: pointer; transition: 0.8s cubic-bezier(0.3, 1.1, 0.4, 1.1); }
+.gt_float_switcher .gt-selected { position: relative; z-index: 888; background-color: rgb(255, 255, 255); cursor: pointer; text-transform: uppercase; overflow: hidden; text-align: left; }
+.gt_float_switcher .gt_options::-webkit-scrollbar-track { background-color: rgb(245, 245, 245); }
+.gt_float_switcher .gt_options::-webkit-scrollbar { width: 5px; }
+.gt_float_switcher .gt_options::-webkit-scrollbar-thumb { background-color: rgb(136, 136, 136); }
+.gt_float_switcher .gt-selected .gt-current-lang { padding: 6px 15px; color: rgb(51, 51, 51); font-weight: bold; }
+.gt_float_switcher .gt-selected .gt-current-lang span.gt-lang-code { position: relative; top: 2px; }
+.gt_float_switcher .gt-selected .gt-current-lang span.gt_float_switcher-arrow { display: inline-block; height: 24px; width: 15px; vertical-align: middle; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 285 285'><path d='M282 76.5l-14.2-14.3a9 9 0 0 0-13.1 0L142.5 174.4 30.3 62.2a9 9 0 0 0-13.2 0L3 76.5a9 9 0 0 0 0 13.1l133 133a9 9 0 0 0 13.1 0l133-133a9 9 0 0 0 0-13z' style='fill:%23666'/></svg>"); background-position: 50% center; background-size: 11px; background-repeat: no-repeat; transition: 0.3s; transform: rotate(-180deg); }

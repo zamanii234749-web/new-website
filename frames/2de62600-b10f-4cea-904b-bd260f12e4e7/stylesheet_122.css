@@ -1,0 +1,12 @@
+[data-theme="dark"] { --_0-AEQ9: var(--color-cold-gray-800); }
+.wrapper-hct2yJvK { color: var(--_0-AEQ9); }
+@keyframes pulsation-hct2yJvK { 
+  0% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+[data-theme="dark"] { --_0-__rq: var(--color-cold-gray-600); --_1-__rq: var(--color-cold-gray-800); }
+.logo-VCNKubWq { align-items: center; justify-content: center; }
+.logo-VCNKubWq:not(img) { background-color: var(--_1-__rq); }
+.hidden-VCNKubWq { opacity: 0; position: absolute; }
+.xxxsmall-VCNKubWq { font-size: 11px; height: 18px; line-height: 16px; min-width: 18px; width: 18px; }
+.letter-VCNKubWq { color: var(--_0-__rq); font-style: normal; font-weight: 700; }

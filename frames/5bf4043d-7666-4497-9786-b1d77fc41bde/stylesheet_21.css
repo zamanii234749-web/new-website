@@ -1,0 +1,9 @@
+@media (max-height: 290px) {
+}
+@supports (-moz-appearance:none) {
+  .content-xKF9ptKN { scrollbar-color: var(--tv-color-scrollbar-thumb-background,var(--color-scroll-bg)) #0000; scrollbar-width: thin; }
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
