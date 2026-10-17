@@ -1,0 +1,83 @@
+.statusesWrap-KqlJzsVD { cursor: default; display: flex; pointer-events: auto; position: relative; z-index: 0; }
+[data-role="statuses-pill"] { align-self: center; background: none; border: none; display: inline-flex; min-width: 6px; overflow: hidden; padding: 0px; }
+[data-role="statuses-pill"]:focus-visible { outline: 2px solid var(--color-focus-outline-color-blue); outline-offset: 2px; }
+[data-role="statuses-pill"].small-KqlJzsVD { border-radius: 9px; }
+[data-role="statuses-pill"] .statusItem-KqlJzsVD:not(:only-child):first-child { padding-left: 2px; }
+[data-role="statuses-pill"] .statusItem-KqlJzsVD:not(:only-child):last-child { padding-right: 2px; }
+.statusItem-KqlJzsVD { direction: ltr; display: flex; position: relative; user-select: none; }
+.statusItem-KqlJzsVD::after { content: ""; display: block; height: 100%; inset-inline-start: 0px; position: absolute; top: 0px; width: 100%; z-index: -1; }
+.statusItem-KqlJzsVD svg { inset-inline-start: 50%; position: relative; top: 50%; transform: translate(-50%, -50%); z-index: 0; }
+.statusItem-KqlJzsVD svg:dir(rtl) { transform: translate(50%, -50%); }
+.statusItem-KqlJzsVD.small-KqlJzsVD { height: 18px; width: 18px; }
+.statusItem-KqlJzsVD.blinking-KqlJzsVD::after { animation: 2.5s cubic-bezier(0.25, 0, 0.75, 1) 0s infinite normal none running blinking-animation-KqlJzsVD; }
+@media (any-hover: hover) {
+}
+.statusItem-KqlJzsVD:dir(rtl) { direction: rtl; }
+@media (any-hover: hover) {
+}
+.marketStatusClose-KqlJzsVD { color: var(--color-content-primary-neutral-semi-bold); }
+.marketStatusClose-KqlJzsVD::after { background-color: var(--color-overlay-neutral-1-light); }
+@media (any-hover: hover) {
+  [data-role="statuses-pill"]:hover .marketStatusClose-KqlJzsVD::after { background-color: var(--color-overlay-neutral-1-normal); }
+}
+[data-role="statuses-pill"]:active .marketStatusClose-KqlJzsVD::after { background-color: var(--color-overlay-neutral-1-bold); }
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+.notAccurate-KqlJzsVD { color: var(--color-content-secondary-danger-extra-bold); }
+.notAccurate-KqlJzsVD::after { background-color: var(--color-overlay-negative-2-light); }
+@media (any-hover: hover) {
+  [data-role="statuses-pill"]:hover .notAccurate-KqlJzsVD::after { background-color: var(--color-overlay-negative-2-normal); }
+}
+[data-role="statuses-pill"]:active .notAccurate-KqlJzsVD::after { background-color: var(--color-overlay-negative-2-bold); }
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+@keyframes blinking-animation-KqlJzsVD { 
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+@keyframes blinking-animation-custom-KqlJzsVD { 
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}

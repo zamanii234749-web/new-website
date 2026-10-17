@@ -1,0 +1,10 @@
+@keyframes brk-la-float { 
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+@keyframes brk-la-ping { 
+  75%, 100% { transform: scale(2); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .brk-la-card { animation: auto ease 0s 1 normal none running none !important; }
+}

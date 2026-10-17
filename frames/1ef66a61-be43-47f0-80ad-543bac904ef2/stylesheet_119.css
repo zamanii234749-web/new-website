@@ -1,0 +1,7 @@
+@media (prefers-reduced-motion: no-preference) {
+}
+@keyframes tv-button-loader-Mgf8EFwK { 
+  0%, 100% { opacity: 1; }
+  60% { opacity: 0.4; }
+  30% { opacity: 0.2; }
+}

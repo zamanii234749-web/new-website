@@ -1,0 +1,23 @@
+@keyframes flashHighlight-animation-iT5zimad { 
+  0% { background-color: var(--color-background-primary-accent-extra-light); }
+  99% { background-color: var(--options-chain-bg-color,var(--color-body-bg)); }
+  100% { background-color: unset; }
+}
+[data-theme="dark"] { --_0-N6ns: url(images/fb3bd36c-6bf9-4e38-9ff9-9e2b732ed201.svg); }
+[data-theme="dark"] { --_0-L-Iz: #0000; --_1-L-Iz: var(--color-cold-gray-700); --_2-L-Iz: var(--color-cold-gray-200); --_3-L-Iz: var(--color-cold-gray-800); }
+@media (min-width: 568px) {
+}
+@supports (-moz-appearance:none) {
+  .scrollContainer-BEB9SOWp { scrollbar-width: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+}
+@media (prefers-reduced-motion: reduce) {
+}
+@media (min-width: 568px) {
+}
+@supports (-moz-appearance:none) {
+  .scrollContainer-s9LJu2RJ { scrollbar-width: none; }
+}
+@media (any-hover: hover) {
+}

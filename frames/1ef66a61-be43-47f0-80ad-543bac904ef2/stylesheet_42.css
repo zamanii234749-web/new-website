@@ -1,0 +1,4 @@
+@keyframes dialogAnimation-hsBoleDO { 
+  0% { opacity: 0; transform: translate(var(--animationTranslateStartX),var(--animationTranslateStartY)) scale(0); }
+  100% { opacity: 1; transform: translate(var(--animationTranslateEndX),var(--animationTranslateEndY)) scale(1); }
+}

@@ -1,0 +1,27 @@
+@media (prefers-reduced-motion: reduce) {
+}
+@media (forced-colors: active) {
+}
+@keyframes fade-in-U2gweMFK { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes planet-birth-U2gweMFK { 
+  0% { transform: scale(0); }
+  100% { transform: scale(1.12); }
+}
+@keyframes planet-breathe-U2gweMFK { 
+  0%, 100% { transform: scale(1.12); }
+  50% { transform: scale(1); }
+}
+@keyframes orbit-birth-U2gweMFK { 
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+@keyframes satellite-flyout-U2gweMFK { 
+  0% { transform: translateY(0px) scale(0); }
+  100% { transform: translateY(var(--ui-lib-private-spaceLoader-orbitRadius,25.5px)) scale(1); }
+}
+@keyframes rotate-U2gweMFK { 
+  100% { transform: rotate(1turn); }
+}

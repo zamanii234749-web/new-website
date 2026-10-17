@@ -1,0 +1,21 @@
+.label-rxNlaGOo { box-sizing: border-box; color: var(--color-white); display: flex; height: 24px; max-width: 28px; overflow: hidden; padding: 0px 6px; position: absolute; transition: max-width 0.6s cubic-bezier(0.4, 0.01, 0.22, 1), background 0.3s cubic-bezier(0.4, 0.01, 0.22, 1); z-index: 3; }
+.label-rxNlaGOo .logoWrap-rxNlaGOo { padding-inline-end: 5px; }
+@media (any-hover: hover) {
+  .label-rxNlaGOo:hover { max-width: 105px; }
+}
+.label-rxNlaGOo:not(a) { cursor: default; }
+.label-rxNlaGOo:focus { outline-style: auto; outline-color: var(--color-tv-blue-500); outline-offset: -2px; outline-width: 2px; }
+.label-rxNlaGOo.end-rxNlaGOo { box-shadow: 0 2px 4px 0 var(--color-other-shadow-primary-neutral-extra-heavy); }
+.label-rxNlaGOo.snap-rxNlaGOo.end-rxNlaGOo { border-radius: 0px; border-end-start-radius: 12px; border-start-start-radius: 12px; inset-inline-end: 0px; }
+.label-rxNlaGOo.top-rxNlaGOo { top: 8px; }
+@media (max-height: 50px) {
+  .label-rxNlaGOo.top-rxNlaGOo { top: 50%; transform: translateY(-50%); }
+}
+@media (any-hover: hover) {
+}
+@media (any-hover: hover) {
+}
+.label__link-rxNlaGOo { border-radius: inherit; height: 100%; inset-inline-start: 0px; pointer-events: none; position: absolute; top: 0px; width: 100%; }
+@media (any-hover: hover) {
+  .label-rxNlaGOo:hover .label__link-rxNlaGOo { pointer-events: auto; }
+}

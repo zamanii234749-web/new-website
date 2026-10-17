@@ -1,0 +1,9 @@
+[data-theme="dark"] { --_0-84ot: var(--color-cold-gray-800); }
+.pair-xwGsSXR0 { display: inline-block; position: relative; }
+.pair-xwGsSXR0.xxxsmall-xwGsSXR0 { height: 18px; width: 18px; }
+.logo-xwGsSXR0:not(img) { background-color: var(--_0-84ot); }
+.logo-xwGsSXR0:first-child, .logo-xwGsSXR0:last-child { position: absolute; right: 0px; top: 0px; }
+.logo-xwGsSXR0.xxxsmall-xwGsSXR0 { height: 12px; width: 12px; }
+.logo-xwGsSXR0.xxxsmall-xwGsSXR0:last-child { transform: translate(-6px, 6px); }
+.logo-xwGsSXR0.xxxsmall-xwGsSXR0:first-child { clip-path: path("M 12 0 H 0 v 4 a 8 8 0 0 1 8 8 h 4 V 0 Z"); }
+.skeleton-xwGsSXR0 { background-color: currentcolor; }

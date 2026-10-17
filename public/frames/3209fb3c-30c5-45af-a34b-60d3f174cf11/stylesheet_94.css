@@ -1,0 +1,10 @@
+@media (any-hover: hover) {
+}
+@media (hover: hover) and (pointer: fine) {
+  @media (any-hover: hover) {
+}
+}
+@media (hover: none) and (pointer: coarse) {
+  @media (any-hover: hover) {
+}
+}
